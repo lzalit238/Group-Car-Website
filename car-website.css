@@ -1,0 +1,21 @@
+.image-slideshow-container {
+    position: relative;
+    max-width: 1500 px;
+
+}
+
+.second, .first {
+    cursor: pointer;
+    position: absolute;
+
+}
+
+.second:hover, .first:hover {
+    background-color: black;
+}
+
+.dot {
+    cursor: pointer;
+    background-color: gray;
+    border-radius: 50%;
+}
