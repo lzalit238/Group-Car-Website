@@ -31,3 +31,15 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 background-attachment: fixed;
 background-size: cover;
 }
+
+.wrapper {
+    background-color: #4190BB;
+    padding: 10px;
+    overflow: left;
+}
+
+.float {
+    float: right;
+    background-color: #0874AE;
+    padding: 10px;
+}
