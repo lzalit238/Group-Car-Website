@@ -43,3 +43,7 @@ background-size: cover;
     background-color: #0874AE;
     padding: 10px;
 }
+
+.img-small {
+    size: 50px;
+}
