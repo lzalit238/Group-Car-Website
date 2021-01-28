@@ -1,7 +1,17 @@
+#pageGrid{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-rows: auto 1fr 1fr;
+}
+header{
+    width: 100%;
+    grid-row: 1 / 2;
+}
 #siteName{
     margin: 0;
-    border-top: 3vh solid #0874AE;
-    border-bottom: 1.5vh solid #06527A;
+    border-top: 2vh solid #0874AE;
+    background-color: #57C1FA;
 }
 nav{
     display: flex;
@@ -9,8 +19,6 @@ nav{
     width: 100vw;
     height: fit-content;
     background-color: #0874AE;
-    border-bottom: 1.5vh solid #06527A;
-
 }
 .navSect{
     display: flex;
@@ -19,6 +27,21 @@ nav{
     justify-content: center;
     align-items: center;
     border-right: 0.2vw solid black;
+}
+#sect1{
+    grid-row: 2 / 3;
+}
+#sect2{
+    grid-row: 3 / 4;
+}
+#sect1, #sect2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#siteName, nav, #sect1, #sect2{
+    border-bottom: 1.5vh solid #06527A;
 }
 .image-slideshow-container {
     position: relative;
