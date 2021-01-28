@@ -10,7 +10,6 @@ nav{
     height: fit-content;
     background-color: #0874AE;
     border-bottom: 1.5vh solid #06527A;
-
 }
 .navSect{
     display: flex;
@@ -54,6 +53,7 @@ body{
     background-size: cover;
     margin: 0;
     text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -70,4 +70,6 @@ body{
 
 .img-small {
     size: 50px;
+    border-radius:50% ;
+    border:#06527A double 10px;
 }
