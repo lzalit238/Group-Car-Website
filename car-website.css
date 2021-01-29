@@ -127,12 +127,10 @@ body{
     background-color: #06527A;
 }
 .img-small {
-    size: 50px;
     border-radius: 50% ;
     border:#06527A double 10px;
 }
 .img-small2 {
-    size: 50px;
     border-radius:50% ;
     border:#4190BB double 10px;
 }
