@@ -1,5 +1,4 @@
 p{
-    margin: 1;
     padding: 10px;
     font-size: large;
 }
@@ -17,15 +16,14 @@ header{
 #siteName{
     margin: 0;
     border-top: 2vh solid #0874AE;
-    background-color: #0874AE;
+    background-color: #0CA7FA;
 }
 nav{
     display: flex;
     flex-direction: row;
     width: 100vw;
     height: fit-content;
-    background-color: #0874AE;
-    border-bottom: 1.5vh solid #06527A;
+    background-color:#57C1FA;
 }
 .navSect{
     display: flex;
@@ -34,6 +32,7 @@ nav{
     justify-content: center;
     align-items: center;
     border-right: 0.2vw solid black;
+    color: #06527A;
 }
 main{
     grid-row: 2 / 4;
@@ -133,15 +132,18 @@ body{
     background-color: #06527A;
 }
 .img-small {
-<<<<<<< HEAD
-    border-radius: 50% ;
-=======
     size: 50px;
     border-radius: 30% ;
->>>>>>> bae72746c9aa7e7d8d4cab65bbe26d22b58086d4
     border:#06527A double 10px;
 }
 .img-small2 {
     border-radius:50% ;
     border:#4190BB double 10px;
+}
+.textbox{
+    background-color: #0CA7FA;
+    border: #06527A solid 10px;
+    text-align: start;
+    padding: 20px;
+    border-radius: 10%;
 }
