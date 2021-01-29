@@ -83,8 +83,18 @@ body{
     padding: 10px;
     background-color: #4190BB;
 }
+.float3{
+    float: initial;
+    padding: 10px;
+    background-color: #06527A;
+}
 .img-small {
     size: 50px;
     border-radius:50% ;
     border:#06527A double 10px;
+}
+.img-small2 {
+    size: 50px;
+    border-radius:50% ;
+    border:#4190BB double 10px;
 }
