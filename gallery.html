@@ -10,9 +10,9 @@
 <body>
     <div id="pageGrid">
         <header>
-            <h1 id="siteName">Site Name</h1>
+            <h1 id="siteName">Gallery</h1>
             <nav>
-                <div class="navSect" onclick="window.location.href='index.html'">
+                <div class="navSect" onclick="window.location.href='home-page.html'">
                     <h1>Home Page</h1>
                 </div>
                 <div class="navSect" onclick="window.location.href='history.html'">
@@ -26,17 +26,19 @@
                 </div>
             </nav>
         </header>
-            <div id="sect1">
-                <img>
-                <img>
-                <p>dsf</p>
-            </div>
-            <div id="sect2">
+            <main>
+                <img class="img-small" src="images/1966_Shelby_GT350.jpg" style="grid-column: 1 / 2; grid-row: 1 / 2">
+                <div class="wrapper" style="grid-column: 2 / 4; grid-row: 1 / 2;">
+                    <img class="img-small" src="images/1967-1968_Shelby_GT500.jpg" style="width: 23vw">
+                    <p>Production Years: 1967-1968</p>
+                    <p>Body Style: 2-door fastback</p>
+                    <p>Successor: 1968 GT500KR</p>
+                </div>
+                <div class="wrapper"  style="grid-column: 1 / 2; grid-row: 2 / 3">
+                    <img class="img-small" src="images/1968_Cobra_GT350.jpg">
+                </div>
                 <p>sdf</p>
-                <img>
-                <p>sdf</p>
-                <img>
-            </div>
+            <main>
     </div>
 </body>
 </html>
