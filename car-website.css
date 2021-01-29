@@ -1,5 +1,7 @@
 p{
     margin: 1;
+    padding: 10px;
+    font-size: large;
 }
 #pageGrid{
     height: 100vh;
@@ -10,11 +12,12 @@ p{
 header{
     width: 100%;
     grid-row: 1 / 2;
+    color: white;
 }
 #siteName{
     margin: 0;
     border-top: 2vh solid #0874AE;
-    background-color: #57C1FA;
+    background-color: #0874AE;
 }
 nav{
     display: flex;
@@ -86,7 +89,8 @@ body{
     background-size: cover;
     margin: 0;
     text-align: center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
 }
 .wrapper {
     background-color: #4190BB;
@@ -115,11 +119,13 @@ body{
     float: left;
     padding: 10px;
     background-color: #4190BB;
+    border-radius: 30%;
 }
 .float2 {
     float: right;
     padding: 10px;
     background-color: #4190BB;
+    border-radius: 30%;
 }
 .float3{
     float: initial;
