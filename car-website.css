@@ -35,7 +35,7 @@ nav{
     color: #06527A;
 }
 .navSect:hover{
-    background-color:#57C1FA;
+    background-color: #0CA7FA;
 }
 main{
     grid-row: 2 / 4;
