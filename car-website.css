@@ -182,3 +182,7 @@ body{
     background-color: #4190BB;
     border-radius: 30%;
 }
+
+em{
+    color: gray;
+}
