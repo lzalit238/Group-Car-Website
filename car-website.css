@@ -27,12 +27,15 @@ nav{
 }
 .navSect{
     display: flex;
-    width: calc(25% - 0.6vw);
+    width: 25%;
     height: 5vh;
     justify-content: center;
     align-items: center;
     border-right: 0.2vw solid black;
     color: #06527A;
+}
+.navSect:hover{
+    background-color:#0CA7FA
 }
 main{
     grid-row: 2 / 4;
@@ -146,4 +149,9 @@ body{
     text-align: start;
     padding: 20px;
     border-radius: 10%;
+}
+.imgBack{
+    padding: 10px;
+    background-color: #4190BB;
+    border-radius: 30%;
 }
