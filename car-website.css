@@ -63,12 +63,16 @@ main p{
 .image-slideshow-container {
     position: relative;
     max-width: 1500 px;
+    margin: auto;
 
 }
 .second, .first {
     cursor: pointer;
     position: absolute;
-
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
 }
 .second:hover, .first:hover {
     background-color: black;
@@ -132,6 +136,18 @@ body{
     padding: 10px;
     background-color: #06527A;
 }
+.float4 {
+    float: left;
+    padding: 10px;
+    background-color: #4190BB;
+    border-radius: ;
+}
+.float5 {
+    float: right;
+    padding: 10px;
+    background-color: #4190BB;
+    border-radius: ;
+}
 .img-small {
     size: 50px;
     border-radius: 30% ;
@@ -139,6 +155,6 @@ body{
 }
 .img-small2 {
     size: 50px;
-    border-radius:50% ;
+    border-radius:30% ;
     border:#4190BB double 10px;
 }
